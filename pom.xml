@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nd</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>autotests</artifactId>
     <version>0.0.1</version>
 
     <build>
@@ -28,7 +28,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>test1</mainClass>
+                            <mainClass>autotests.test1</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                     </archive>

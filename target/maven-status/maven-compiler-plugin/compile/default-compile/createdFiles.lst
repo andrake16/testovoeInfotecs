@@ -1,2 +1,6 @@
-xmlJsonUtils\converter.class
-test1.class
+utils\FileGenerator.class
+utils\Logger.class
+utils\XmlJSONconverter.class
+autotests\Settings.class
+autotests\test1.class
+utils\Pinger.class
