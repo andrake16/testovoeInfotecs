@@ -18,8 +18,7 @@ public class FileGenerator {
         System.out.println("start generate file");
 
         final String dataToWrite = "z";
-        //Long amountOfDataToWrite = 1024L * 1024L * 1024L;
-        Long amountOfDataToWrite = 1024L * 1024L;
+        Long amountOfDataToWrite = 1024L * 1024L * 1024L;
 
         File file = new File(OUTPUT_FILE_PATH);
         FileWriter fileWriter = null;
