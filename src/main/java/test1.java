@@ -6,19 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import com.google.common.io.Resources;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONObject;
 import org.json.XML;
-import com.google.common.io.Files;
-import org.apache.commons.io.IOUtils;
+import xmlJsonUtils.converter;
 
-import javax.annotation.Resources;
 
-public class main {
+public class test1 {
     public static void main(String[] args)  {
-        //createDummyFile();
-        //pingInfotecs();
-        //convertXMLtoJSON();
+        createDummyFile();
+        pingInfotecs();
+        converter.convertXMLtoJSON();
 
     }
 
@@ -157,7 +156,7 @@ public class main {
         String filepath = "toJSON.xml";
         String xmlString = "";
 
-        URL url = com.google.common.io.Resources.getResource(filepath);
+        URL url = Resources.getResource(filepath);
 
         try {
             File file = new File(url.toURI());
